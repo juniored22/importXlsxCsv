@@ -81,9 +81,6 @@ class ImportExcelCsv {
           }
           return e
         })
-
-        console.log(res);
-        debugger
       })
   }
 
