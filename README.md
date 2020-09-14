@@ -36,4 +36,4 @@ Read xlsx and csv
 https://gitlab.com/catamphetamine/read-excel-file#readme
 
 ## License
-<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow.svg)" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
