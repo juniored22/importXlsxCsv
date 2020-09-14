@@ -33,6 +33,6 @@ Read xlsx and csv
     }
 </script>
 ```
-### Dependencia
+### Dependência
 
 https://gitlab.com/catamphetamine/read-excel-file#readme
