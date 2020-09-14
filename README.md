@@ -31,9 +31,9 @@ Read xlsx and csv
         document.querySelector('.result').innerHTML = JSON.stringify(result)
     }
 ```
-### Dependências
+## Dependências
 
 https://gitlab.com/catamphetamine/read-excel-file#readme
 
-## LICENSE
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License
+<a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow.svg)" alt="License"></a>
