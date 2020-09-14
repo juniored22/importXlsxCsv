@@ -59,8 +59,6 @@ class ImportExcelCsv {
         ? this.callback({ result: res, header: res[0], rows: res.slice(1) })
         : this.callback({ result: res, header: false, rows: res })
     }
-
-
   }
 
   /**
