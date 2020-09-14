@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPORT XLSX AND CSV</title>
+</head>
+<body>
+
+
+    <input type="file"  id="csvFileInput"  accept=".csv,.xlsx">
+    <div class="result">
+
+    </div>
+</body>
+
+<script src="../js/ImportExcelCsv.js"></script>
+<script src="../js/readXlsxFile.js"></script>
+<script>
+    const import_excel_csv = new ImportExcelCsv()
+    document.querySelector('#csvFileInput').addEventListener('change', (e)=>{
+        let file = e.target.files
+        let options = {
+            file,
+            head:true,
+            indexDateFormate: [1]
+        }
+        import_excel_csv.init(options, myCallback)
+    })
+    function myCallback(result){
+        console.log(result);
+        document.querySelector('.result').innerHTML = JSON.stringify(result)
+    }
+</script>
+
+</html>
