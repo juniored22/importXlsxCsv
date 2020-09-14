@@ -2,21 +2,20 @@
 Read xlsx and csv
 
 ### HTML
-```
+```html
     <input type="file"  id="csvFileInput"  accept=".csv,.xlsx">
     <div class="result">
     </div>
 ```
 
 ### IMPORT SRC
-```
+```html
 <script src="../js/ImportExcelCsv.js"></script>
 <script src="../js/readXlsxFile.js"></script>
 ```
 
 ### JS
-```
-<script>
+```js
     const import_excel_csv = new ImportExcelCsv()
     document.querySelector('#csvFileInput').addEventListener('change', (e)=>{
         let file = e.target.files
@@ -31,8 +30,9 @@ Read xlsx and csv
         console.log(result);
         document.querySelector('.result').innerHTML = JSON.stringify(result)
     }
-</script>
 ```
 ### Dependências
 
 https://gitlab.com/catamphetamine/read-excel-file#readme
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
